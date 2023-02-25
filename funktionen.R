@@ -1,4 +1,4 @@
-#Berechnung und Ausgabe von Statistiken fuer metrische Variablen
+# 3 a) Berechnung und Ausgabe von Statistiken fuer metrische Variablen
 metrischeVariablen = function(x){
   
   mittelwert = mean(x)
@@ -6,7 +6,6 @@ metrischeVariablen = function(x){
   
   return(list("arithmetisches Mittel" = mittelwert))
 }
-metrischeVariablen(daten$Alter)
 
 # 3e) Quantilbasiert kategorisiert von ordinal skalierter Variable
 qk <- function(x){
