@@ -1,9 +1,9 @@
-# 3a) deskriptive Statistiken fuer metrische Variablen
-#Input: numerischer Vektor (kein NA handling); Rueckgabe: Liste 
-#Optional kann ueber das Argument graphic = TRUE ein Boxplot ausgegeben werden. 
-#Ueber den cut Paramter kann fuer das getrimmte arithemtische Mittel die zu 
-#ignorierenden Werte eingestellt werden. Standard ist: 0.1. Das Bedeutet: 
-#Werte unterhalb des 10% Quantil und oberhalb des 90% Qunatil werden ignoriert
+# 3a) Berechnung und Ausgabe von deskriptiven Statistiken fuer metrische Variablen
+##Input: numerischer Vektor (kein NA handling); Rueckgabe: Liste 
+##Optional kann ueber das Argument graphic = TRUE ein Boxplot ausgegeben werden. 
+##Ueber den cut Parameter kann fuer das getrimmte arithemtische Mittel die zu 
+##ignorierenden Werte eingestellt werden. Standard ist: 0.1. Das Bedeutet: 
+##Werte unterhalb des 10% Quantil und oberhalb des 90% Qunatil werden ignoriert
 metrischeVariablen = function(x, graphic = FALSE, cut = 0.1){
   
   metrischeStatisitken = list(
@@ -43,7 +43,8 @@ metrischeVariablen = function(x, graphic = FALSE, cut = 0.1){
   return(metrischeStatisitken)
   
 }
-metrischeVariablen(daten$Alter)
+
+################################################################################
 
 # 3e) Quantilbasiert kategorisiert von ordinal skalierter Variable
 qk <- function(x){
@@ -65,7 +66,7 @@ md <- function(x,y){
               "Durchschnittsalter von Leuten, die kein Mathe-LK hatten" = nein))
 }
 
-####################
+################################################################################
 
 # 3f 
 
