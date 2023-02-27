@@ -2,7 +2,7 @@
 
 # Variablen erstellen
 ID <- 1:100
-Alter <- rnorm(100, 25, 2)
+Alter <- floor(rnorm(100, 25, 2))
 Studienfach <- sample(c("Statistik", "Data Science", "Informatik", "Mathe"), size= 100, TRUE, prob = c(0.35, 0.35, 0.20, 0.1))
 # Studienfachzuweisung wobei Statistik und Data Science die selbe Wahrscheinlichkeit von 35% haben.Informatik hat eine W'keit von 20% und Mathe eine von 10%
 
