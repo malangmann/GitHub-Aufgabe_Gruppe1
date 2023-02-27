@@ -62,5 +62,46 @@ deskfun2(dat$Studienfach)
 ###### Funktion 3c)
 zk(dat$Studienfach, dat$MatheLK) # Der Barplot, welcher die Funktion ausgibt, befindet sich im Repository
 
+## Funktion 3 d)
 
+$`Durchschnittsalter von Leuten, die Mathe-LK hatten`
+[1] 24.6625
 
+$`Durchschnittsalter von Leuten, die kein Mathe-LK hatten`
+[1] 24.8
+
+## Funktion 3 e)
+
+dat$InteresseMathe$Kategorisiert
+  [1] "mittel" "mittel" "mittel" "hoch"   "mittel" "mittel" "hoch"   "mittel"
+  [9] "mittel" "mittel" "mittel" "mittel" "mittel" "mittel" "hoch"   "mittel"
+ [17] "mittel" "mittel" "mittel" "mittel" "hoch"   "mittel" "hoch"   "mittel"
+ [25] "hoch"   "mittel" "mittel" "mittel" "hoch"   "mittel" "mittel" "mittel"
+ [33] "mittel" "mittel" "mittel" "mittel" "mittel" "mittel" "mittel" "mittel"
+ [41] "hoch"   "mittel" "mittel" "hoch"   "hoch"   "mittel" "hoch"   "mittel"
+ [49] "mittel" "mittel" "mittel" "hoch"   "mittel" "hoch"   "mittel" "mittel"
+ [57] "mittel" "mittel" "mittel" "mittel" "hoch"   "mittel" "hoch"   "hoch"  
+ [65] "hoch"   "hoch"   "mittel" "mittel" "mittel" "mittel" "mittel" "hoch"  
+ [73] "mittel" "mittel" "mittel" "mittel" "mittel" "mittel" "mittel" "mittel"
+ [81] "mittel" "hoch"   "mittel" "mittel" "mittel" "mittel" "mittel" "mittel"
+ [89] "mittel" "mittel" "mittel" "mittel" "mittel" "hoch"   "mittel" "mittel"
+ [97] "mittel" "mittel" "hoch"   "mittel"
+
+dat$InteresseProgrammieren$Kategorisiert
+  [1] "mittel" "hoch"   "mittel" "hoch"   "hoch"   "hoch"   "mittel" "hoch"  
+  [9] "hoch"   "mittel" "hoch"   "mittel" "mittel" "hoch"   "mittel" "mittel"
+ [17] "mittel" "hoch"   "hoch"   "hoch"   "mittel" "mittel" "mittel" "hoch"  
+ [25] "mittel" "mittel" "hoch"   "mittel" "hoch"   "mittel" "mittel" "mittel"
+ [33] "hoch"   "mittel" "hoch"   "hoch"   "mittel" "hoch"   "hoch"   "hoch"  
+ [41] "mittel" "hoch"   "hoch"   "hoch"   "mittel" "mittel" "mittel" "mittel"
+ [49] "hoch"   "hoch"   "hoch"   "mittel" "hoch"   "mittel" "hoch"   "hoch"  
+ [57] "hoch"   "mittel" "mittel" "mittel" "hoch"   "mittel" "mittel" "mittel"
+ [65] "mittel" "mittel" "hoch"   "mittel" "hoch"   "mittel" "hoch"   "mittel"
+ [73] "hoch"   "mittel" "mittel" "hoch"   "hoch"   "mittel" "hoch"   "mittel"
+ [81] "hoch"   "mittel" "hoch"   "mittel" "mittel" "hoch"   "hoch"   "mittel"
+ [89] "mittel" "hoch"   "mittel" "hoch"   "mittel" "hoch"   "hoch"   "mittel"
+ [97] "hoch"   "mittel" "mittel" "mittel"
+
+## Funktion 3 f)
+
+VisualizierungStudienfaecher(dat$Studienfach) ## Die Visualisierung befindet sich im Repository.
