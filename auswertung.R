@@ -62,6 +62,70 @@ deskfun2(dat$Studienfach)
 ###### Funktion 3c)
 zk(dat$Studienfach, dat$MatheLK) # Der Barplot, welcher die Funktion ausgibt, befindet sich im Repository
 
+## die Tabellen für den Zusammenhang zwischen Interessen an Mathematik / Programmieren und dem Studienfach
+
+dat$InteresseMathe$`1`
+< table of extent 0 >
+
+$`2`
+< table of extent 0 >
+
+$`3`
+drei
+Data Science 
+          20 
+
+$`4`
+vier
+Data Science   Informatik    Statistik 
+           8           12            7 
+
+$`5`
+fuenf
+Data Science   Informatik        Mathe    Statistik 
+          11           10            1            9 
+
+$`6`
+sechs
+Informatik  Statistik 
+         5         12 
+
+$`7`
+sieben
+Mathe 
+    5 
+
+dat$InteresseProgrammieren$`1`
+< table of extent 0 >
+
+$`2`
+< table of extent 0 >
+
+$`3`
+drei
+Statistik 
+       10 
+
+$`4`
+vier
+Data Science        Mathe    Statistik 
+           9            3            8 
+
+$`5`
+fuenf
+Data Science        Mathe    Statistik 
+          10            3           10 
+
+$`6`
+sechs
+Data Science   Informatik 
+          11           14 
+
+$`7`
+sieben
+Data Science   Informatik 
+           9           13 
+
 ## Funktion 3 d)
 
 $`Durchschnittsalter von Leuten, die Mathe-LK hatten`
