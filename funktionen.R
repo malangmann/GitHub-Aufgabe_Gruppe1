@@ -52,7 +52,7 @@ qk <- function(x){
   Kategorie[which(x < 3)] <- "niedrig"
   Kategorie[which(x > 2 & x < 6)] <- "mittel"
   Kategorie[which(x > 5)] <- "hoch"
-  
+  cat(deparse(substitute(x)))
   return(list("Kategorisiert" = Kategorie))
 }
 
@@ -124,6 +124,7 @@ interesse <- function(Studienfach, Interesse){
   fuenf <- Studienfach[which(Interesse == 5)]
   sechs <- Studienfach[which(Interesse == 6)]
   sieben <- Studienfach[which(Interesse == 7)]
+  cat(deparse(substitute(Interesse)))
   list("1" = table(eins), "2" = table(zwei), "3" = table(drei), "4" = table(vier),
        "5" = table(fuenf), "6" = table(sechs), "7" = table(sieben))
 }
