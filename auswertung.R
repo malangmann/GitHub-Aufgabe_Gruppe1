@@ -60,8 +60,7 @@ deskfun2(dat$Studienfach)
 [1] "Data Science"
 
 ###### Funktion 3c)
-zk(dat$Studienfach, dat$MatheLK)
-# Der Barplot, welcher die Funktion ausgibt, befindet sich im Repository
+zk(dat$Studienfach, dat$MatheLK) # Der Barplot, welcher die Funktion ausgibt, befindet sich im Repository
 
 
 
