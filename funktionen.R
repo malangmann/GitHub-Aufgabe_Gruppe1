@@ -111,6 +111,6 @@ zk <- function(Studienfach, MatheLK){
   i0 <- sum(Studienfach[which(MatheLK == 1)] == "Informatik")
   mx <- matrix(c(st1, st0, ds1, ds0, m1, m0, i1, i0), nrow = 2)
   barplot(mx, beside = TRUE, names.arg = c("Statistik", "Data Science","Mathe", "Informatik"),
-          main = "Verteilung der Studienfaecher von Studenten mit und ohne Mathe-LK", col = c("black", "white"), xlab = "Studienfaecher", ylab = "Absolute Haeufigkeit")
-  legend("topleft", c("Mit Mathe-LK","Ohne Mathe-LK"), fill = c("black", "white"), cex = 0.8)  
+          main = "Verteilung der Studienfaecher von Studenten mit und ohne Mathe-LK", col = c("black", "grey"), xlab = "Studienfaecher", ylab = "Absolute Haeufigkeit")
+  legend(7, 28, c("Mit Mathe-LK","Ohne Mathe-LK"), fill = c("black", "grey"), cex = 0.8)  
 }
