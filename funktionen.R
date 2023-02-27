@@ -114,3 +114,16 @@ zk <- function(Studienfach, MatheLK){
           main = "Verteilung der Studienfaecher von Studenten mit und ohne Mathe-LK", col = c("black", "grey"), xlab = "Studienfaecher", ylab = "Absolute Haeufigkeit")
   legend(7, 28, c("Mit Mathe-LK","Ohne Mathe-LK"), fill = c("black", "grey"), cex = 0.8)  
 }
+
+# Tabellen für die Verteilung der Studienfächer im Verhältnis zum Interesse an Mathematik / Programmieren
+interesse <- function(Studienfach, Interesse){
+  eins <- Studienfach[which(Interesse == 1)]
+  zwei <- Studienfach[which(Interesse == 2)]
+  drei <- Studienfach[which(Interesse == 3)]
+  vier <- Studienfach[which(Interesse == 4)]
+  fuenf <- Studienfach[which(Interesse == 5)]
+  sechs <- Studienfach[which(Interesse == 6)]
+  sieben <- Studienfach[which(Interesse == 7)]
+  list("1" = table(eins), "2" = table(zwei), "3" = table(drei), "4" = table(vier),
+       "5" = table(fuenf), "6" = table(sechs), "7" = table(sieben))
+}
